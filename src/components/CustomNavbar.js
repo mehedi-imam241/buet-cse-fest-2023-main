@@ -14,6 +14,7 @@ import {
 } from "@material-tailwind/react";
 import ButtonCustom from "@/components/ButtonCustom";
 import  variables  from "../app/variables.module.scss";
+import Link from "next/link";
 
 export default function CustomNavbar() {
   const [openNav, setOpenNav] = useState(false);
@@ -33,9 +34,9 @@ export default function CustomNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link href="/aicontest" className="flex items-center">
           AI Contest
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -43,9 +44,9 @@ export default function CustomNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link href="/hackathon" className="flex items-center">
           Hackathon
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -53,23 +54,23 @@ export default function CustomNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <Link href="/dlsprint" className="flex items-center">
           DL Sprint
-        </a>
+        </Link>
       </Typography>
 
-      <li className="p-1 font-normal cursor-pointer">
-        <Menu>
-          <MenuHandler>
-            <p className=" text-black">Others</p>
-          </MenuHandler>
-          <MenuList>
-            <MenuItem>Menu Item 1</MenuItem>
-            <MenuItem>Menu Item 2</MenuItem>
-            <MenuItem>Menu Item 3</MenuItem>
-          </MenuList>
-        </Menu>
-      </li>
+      {/*<li className="p-1 font-normal cursor-pointer">*/}
+      {/*  <Menu>*/}
+      {/*    <MenuHandler>*/}
+      {/*      <p className=" text-black">Others</p>*/}
+      {/*    </MenuHandler>*/}
+      {/*    <MenuList>*/}
+      {/*      <MenuItem>Menu Item 1</MenuItem>*/}
+      {/*      <MenuItem>Menu Item 2</MenuItem>*/}
+      {/*      <MenuItem>Menu Item 3</MenuItem>*/}
+      {/*    </MenuList>*/}
+      {/*  </Menu>*/}
+      {/*</li>*/}
     </ul>
   );
 
