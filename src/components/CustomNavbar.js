@@ -76,17 +76,13 @@ export default function CustomNavbar() {
 
   return (
     <Navbar
-      className="mx-auto max-w-screen-2xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
+      className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
       blurred={false}
     >
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium"
-        >
-          BUET CSE FEST 2023
-        </Typography>
+<Link href="/">
+  <img src={"/assets/fest-logo.png"}  className={"w-14"}/>
+</Link>
         <div className="hidden lg:block">{navList}</div>
 
         <div className="hidden lg:inline-block">
