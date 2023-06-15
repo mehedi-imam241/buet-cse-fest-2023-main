@@ -42,7 +42,7 @@ function Segments(props) {
                 {
                     segmentList.map((item) => <Card>
                         <CardBody>
-                            <h5 className={"mb-3 text-lg font-medium text-left"}>
+                            <h5 className={"mb-3 text-sm sm:text-lg font-medium text-left"}>
                                 {item.title}
                             </h5>
                             <p className={"mb-2 text-left"}>

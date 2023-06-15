@@ -11,7 +11,7 @@ function EventDescription({description, TABLE_HEAD, TABLE_ROWS}) {
             <div className={"flex justify-center items-center "}>
 
 
-                <Card className="overflow-auto h-full w-3/4  lg:w-1/3 ">
+                <Card className="overflow-auto h-full w-5/6  lg:w-1/3 ">
                     <table className="w-full min-w-max table-auto text-left">
                         <thead>
                         <tr>
