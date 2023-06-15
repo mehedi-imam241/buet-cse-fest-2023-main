@@ -1,139 +1,113 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import {
-  Navbar,
-  Typography,
-  Button,
-  IconButton,
-  Collapse,
-  Menu,
-  MenuHandler,
-  MenuList,
-  MenuItem,
-} from "@material-tailwind/react";
+import {useEffect, useState} from "react";
+import {Button, Collapse, IconButton, Navbar,} from "@material-tailwind/react";
 import ButtonCustom from "@/components/ButtonCustom";
-import  variables  from "../app/variables.module.scss";
+import variables from "../app/variables.module.scss";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
+
+
+const navLinks = [
+    {title: "Home", link: "/"},
+    {title: "AI Contest", link: "/aicontest"},
+    {title: "Hackathon", link: "/hackathon"},
+    {title: "DL Sprint", link: "/dlsprint"},
+    {title: "CTF", link: "/ctf"},
+    {title: "GameJam", link: "/gamejam"},
+];
+
 
 export default function CustomNavbar() {
-  const [openNav, setOpenNav] = useState(false);
+    const [openNav, setOpenNav] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
+    const pathname = usePathname();
+
+
+    useEffect(() => {
+        window.addEventListener(
+            "resize",
+            () => window.innerWidth >= 960 && setOpenNav(false)
+        );
+    }, []);
+
+    const navList = (
+        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-medium">
+            {navLinks.map((link, index) => (
+                <li key={index}>
+                    <Link href={link.link}
+                          className={`text-base ${pathname === link.link ? "text-color-primary border-b-2 border-b-color-primary" : "text-color-black"}   hover:text-color-secondary transition-all`}>
+                        {link.title}
+
+                    </Link>
+                </li>
+            ))}
+        </ul>
     );
-  }, []);
 
-  const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        variant="paragraph"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link href="/aicontest" className="flex items-center">
-          AI Contest
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="paragraph"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link href="/hackathon" className="flex items-center">
-          Hackathon
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="paragraph"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link href="/dlsprint" className="flex items-center">
-          DL Sprint
-        </Link>
-      </Typography>
-
-      {/*<li className="p-1 font-normal cursor-pointer">*/}
-      {/*  <Menu>*/}
-      {/*    <MenuHandler>*/}
-      {/*      <p className=" text-black">Others</p>*/}
-      {/*    </MenuHandler>*/}
-      {/*    <MenuList>*/}
-      {/*      <MenuItem>Menu Item 1</MenuItem>*/}
-      {/*      <MenuItem>Menu Item 2</MenuItem>*/}
-      {/*      <MenuItem>Menu Item 3</MenuItem>*/}
-      {/*    </MenuList>*/}
-      {/*  </Menu>*/}
-      {/*</li>*/}
-    </ul>
-  );
-
-  return (
-    <Navbar
-      className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
-      blurred={false}
-    >
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-<Link href="/">
-  <img src={"/assets/fest-logo.png"}  className={"w-14"}/>
-</Link>
-        <div className="hidden lg:block">{navList}</div>
-
-        <div className="hidden lg:inline-block">
-          <ButtonCustom bgcolor={`linear-gradient(to right top, ${variables.colorPrimary}, ${variables.colorSecondary}, ${variables.colorTertiary})`} textcolor={variables.colorWhite}>Facebook Event</ButtonCustom>
-        </div>
-        <IconButton
-          variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-          ripple={false}
-          onClick={() => setOpenNav(!openNav)}
+    return (
+        <Navbar
+            className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
+            blurred={false}
         >
-          {openNav ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              className="h-6 w-6"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          )}
-        </IconButton>
-      </div>
-      <Collapse open={openNav}>
-        <div className="container mx-auto">
-          {navList}
-          <Button variant="gradient" color={"purple"} size="sm" fullWidth className="mb-2">
-            <span>Facebook Event</span>
-          </Button>
-        </div>
-      </Collapse>
-    </Navbar>
-  );
+            <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+                <Link href="/">
+                    <img src={"/assets/fest-logo-text.png"} className={"h-14 hidden sm:block"}/>
+                    <img src={"/assets/fest-logo.png"} className={"w-8 block sm:hidden"}/>
+                </Link>
+                <div className="hidden lg:block">{navList}</div>
+
+                <div className="hidden lg:inline-block">
+                    <ButtonCustom
+                        bgcolor={`linear-gradient(to right top, ${variables.colorPrimary}, ${variables.colorSecondary}, ${variables.colorTertiary})`}
+                        textcolor={variables.colorWhite}>Facebook Event</ButtonCustom>
+                </div>
+                <IconButton
+                    variant="text"
+                    className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+                    ripple={false}
+                    onClick={() => setOpenNav(!openNav)}
+                >
+                    {openNav ? (
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            className="h-6 w-6"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    ) : (
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M4 6h16M4 12h16M4 18h16"
+                            />
+                        </svg>
+                    )}
+                </IconButton>
+            </div>
+            <Collapse open={openNav}>
+                <div className="container mx-auto">
+                    {navList}
+                    <Button variant="gradient" color={"purple"} size="sm" fullWidth className="mb-2">
+                        <span>Facebook Event</span>
+                    </Button>
+                </div>
+            </Collapse>
+        </Navbar>
+    );
 }
