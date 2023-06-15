@@ -21,7 +21,7 @@ module.exports = withMT({
               " linear-gradient(to right bottom,rgb(46, 134, 193,.8),rgb(115, 53, 139,0.9), rgb(241, 196, 15,0.5)),  url('/assets/ai-contest-hero.webp')",
             "ctf-pattern":
                 " linear-gradient(to right bottom,rgb(46, 134, 193,.7),rgb(115, 53, 139,0.9), rgb(241, 196, 15,0.5)),  url('/assets/ctf-hero.jpg')",
-        "gamejam-pattern": "linear-gradient(to right bottom,rgb(46, 134, 193,.6),rgb(115, 53, 139,0.7), rgb(241, 196, 15,0.5)),  url('/assets/gamejam-hero.webp')",
+        "gamejam-pattern": "linear-gradient(to right bottom,rgb(46, 134, 193,.6),rgb(115, 53, 139,0.7), rgb(241, 196, 15,0.5)),  url('/assets/gameJam-hero.webp')",
 
 
       },
