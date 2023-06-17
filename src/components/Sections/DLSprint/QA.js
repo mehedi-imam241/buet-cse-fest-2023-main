@@ -29,10 +29,10 @@ const QALIST = [
         answer: "For the final onsite round, at least one member of the team should be present physically at the premises of Department of CSE, BUET."
         }, {
         question: "If I have more enquiries, where can I contact?",
-        answer: "Please contact us via disprint2022@gmail.com. For queries related to the competition problem, please post it on the discussion of the Kaggle competition page of DL Sprint."
+        answer: "Please contact us via disprint2023@gmail.com. For queries related to the competition problem, please post it on the discussion of the Kaggle competition page of DL Sprint."
         }, {
         question: "When is the registration deadline?",
-        answer: "July 24,2023."
+        answer: "TBA"
         }
     ]
 

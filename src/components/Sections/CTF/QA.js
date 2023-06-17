@@ -39,11 +39,6 @@ const QALIST = [
         answer: "There is no registration fee for the competition. It is completely free to participate."
     },
     {
-        question: "How long will the competition last?",
-        answer: "No, participation in the Inter University CTF Competition is free of charge. However, registration is mandatory, and all participants must register before the deadline."
-
-    },
-    {
         question: "Can I bring my own tools and equipment to the competition?",
         answer: "Participants are generally allowed to bring their own tools and equipment, such as laptops or other devices, as long as they comply with the competition's rules and guidelines. Specific instructions regarding allowed tools and equipment will be communicated to participants before the event."
     }

@@ -6,20 +6,32 @@ import ButtonCustom from "@/components/ButtonCustom";
 
 const CompetitionList = [
     {
-        title: "Inter University Programming Contest",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies, nisl nunc aliquam",
-        image: "/assets/hero.jpg",
-    },
-    {
         title: "hackathon",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
-        image: "/assets/hero.jpg"
+        image: "/assets/hackthon-banner.jpg"
     },
     {
         title: "Deep Learning Sprint",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies nisl nunc aliquam nisl nunc aliquam",
-        image: "/assets/hero.jpg"
-    }];
+        image: "/assets/dlsprint-banner.jpg"
+    },
+    {
+        title: "Capture the Flag",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        image: "/assets/ctf-banner.jpg"
+    },
+    {
+        title: "GameJam",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        image: "/assets/gamejam-banner.jpg"
+    },
+    {
+        title: "AI Contest",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        image: "/assets/ai-contest-hero.webp"
+    }
+
+];
 
 function CompetitionSection(props) {
     return (

@@ -9,8 +9,13 @@ import { Card, Typography } from "@material-tailwind/react";
 import EventDescription from "@/components/eventDescription";
 
 
-const description = <>The hackathon will be a two day event organized by the <b> Department of Computer Science and Engineering, BUET </b> with a 24 hour long coding sprint followed by a presentation and judging. This will be an on site hackathon held on the premises of BUET. We
-    will arrange mentors and workshops for each segment. So beginners are highly encouraged to participate. The hackathon will be held in three segments: <b> DevOps, API and Web3 </b> . We are collaborating with Optimizely to bring you this event.</>
+const description = <>The Fest is back with its signature event - A 24-hour long Hackathon! 🎉
+    <br/>
+    <br/>
+    The Hackathon will be a two-day event involving a 24-hour long coding sprint followed by presentation and judging. This will be an onsite hackathon held on the premises of BUET. Mentors and workshops for each segment will be arranged, so beginners are highly encouraged to participate. Teams consist of 2-3 participants and participants need to be university students. The segments for this year's Hackathon are - DevOps, API and Web3. For further information please checkout the event and rulebook before registration!
+    <br/>
+    <br/>
+    The event will be held in the premises of ECE building, BUET.</>
 
 const TABLE_HEAD = ["Event", "Location","Date & Time"];
 
@@ -18,22 +23,22 @@ const TABLE_ROWS = [
     {
         name: "Arrival",
         location: "BUET",
-        date: "23/04/18",
+        date: "20 July, 2023",
     },
     {
         name: "Sprint",
         location: "BUET",
-        date: "23/04/18",
+        date: "20-21 July, 2023",
     },
     {
         name: "Job Seminar",
         location: "BUET",
-        date: "19/09/17",
+        date: "21 July, 2023",
     },
     {
         name: "Final Judging",
         location: "BUET",
-        date: "23/04/18",
+        date: "TBA",
     }
 
 ];

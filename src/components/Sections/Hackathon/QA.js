@@ -32,7 +32,7 @@ const QALIST = [
         answer: "To find the most suitable segment we recommend going through our Rulebook which contains an overview and resources for each segment."
     }, {
         question: "Do I need to pay a registration fee?",
-        answer: "Registration is completely free for all participants!"
+        answer: "A small registration fee will be required for the onsite participants. It can be found on the facebook event details and it will be kept affordable to encourage participation."
     }, {
         question: "What will the schedule be like?",
         answer: "The Hackathon will be a two-day event with a 24 hour long coding sprint followed by presentation and judgment."

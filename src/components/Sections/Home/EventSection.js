@@ -1,51 +1,97 @@
 import React from 'react';
 import WaveDesign from "@/components/WaveDesign";
-import variables from "@/app/variables.module.scss";
 import SectionTitle from "@/components/SectionTitle";
+import {MdComputer} from "react-icons/md";
+import variables from "@/app/variables.module.scss";
+import {GiMusicalNotes, GiRallyTheTroops, GiRunningNinja} from "react-icons/gi";
+import {FaBrain, FaLanguage, FaTableTennis} from "react-icons/fa";
+import {AiFillLock} from "react-icons/ai";
+import { IoLogoGameControllerB} from "react-icons/io";
+import {IoGolf} from "react-icons/io5";
+import {RiTreasureMapFill} from "react-icons/ri";
+import {BsCameraFill, BsEmojiLaughingFill} from "react-icons/bs";
+import {HiLightBulb} from "react-icons/hi";
+import { IconContext } from "react-icons";
+import {BiFootball} from "react-icons/bi";
+
+const colorList = [variables.colorPrimary, variables.colorSecondary, variables.colorTertiary];
+
 
 const EventList = [
     {
-        image: "/assets/hero.jpg",
-        title: "Event 1",
+        image: <MdComputer size={32} />,
+        title: "IUPC",
     },
     {
-        image: "/assets/hero.jpg",
-        title: "Event 2",
+        image: <GiRunningNinja size={32} />,
+        title: "Hackathon",
     },
     {
-        image: "/assets/hero.jpg",
-        title: "Event 3",
+        image: <FaLanguage size={32}/>,
+        title: "DL Sprint 2.0",
     },
     {
-        image: "/assets/hero.jpg",
-        title: "Event 4",
+        image: <AiFillLock size={32}/>,
+        title: "Capture the Flag",
     },
     {
-        image: "/assets/hero.jpg",
-        title: "Event 5",
+        image: <IoLogoGameControllerB size={32}/>,
+        title: "GameJam",
     },{
-        image: "/assets/hero.jpg",
-        title: "Event 6",
+        image: <FaBrain size={32}/>,
+        title: "AI Contest",
     },
     {
-        image: "/assets/hero.jpg",
-        title: "Event 7",
-    }];
+        image: <IoGolf size={32}/> ,
+        title: "CodeGolf",
+    },    {
+        image: <RiTreasureMapFill size={32}/> ,
+        title: "Treasure Hunt",
+    },    {
+        image: <FaTableTennis size={32}/> ,
+        title: "Indoor Games",
+    },
+    {
+image: <BiFootball size={32}/>        ,
+        title: "Outdoor Games"
+    },
+    {
+        image: <BsEmojiLaughingFill size={32}/> ,
+        title: "Meme Contest",
+    },
+    {
+        image: <HiLightBulb size={32}/> ,
+        title: "Takla Contest",
+    },
+    {
+        image: <BsCameraFill size={32}/>        ,
+        title: "Photography Contest",
+    },     {
+        image: <GiRallyTheTroops size={32}/>        ,
+        title: "Flash mob & Rally",
+    },    {
+        image: <GiMusicalNotes size={32}/>        ,
+        title: "Grand Cultural Night",
+    },];
 function EventSection(props) {
     return (
-        <div className="relative text-center pb-16 sm:pb-[15%]" style={{background:variables.colorGray}}>
+        <div className="relative text-center pb-20 sm:pb-[17%]" style={{background:variables.colorGray}}>
 
             <SectionTitle>Events In the Fest</SectionTitle>
 
 
 
-        <div className={"grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-10 mt-20 sm:w-[80%] md:w-[70%] xl:w-[50%] mx-auto"}>
+        <div className={"grid  grid-cols-2  md:grid-cols-3 gap-x-3 gap-y-10 mt-10 w-[95%] md:w-[80%] xl:w-[60%] mx-auto "}>
                 {
                     EventList.map((item,index)=>{
                         return(
-                            <div className={"flex items-center justify-center gap-2 rounded-sm shadow-sm inline-block"}>
-                                <img src={item.image} className={"w-14 md:w-16"}/>
-                                <p className={"text-base text-gray-900"}>{item.title}</p>
+                            <div className={"flex flex-col items-center justify-center gap-2 inline-block min-w-[40px]"}>
+
+                                    <div className={`${index%3===0? "text-color-primary":`${index%3===1?"text-color-secondary":"text-color-tertiary"}`}`}>
+                                        {item.image}
+                                    </div>
+
+                                <p className={"text-xs sm:text-base font-medium text-gray-700"}>{item.title}</p>
                             </div>
                         )
                     }

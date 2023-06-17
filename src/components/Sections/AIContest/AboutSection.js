@@ -11,8 +11,8 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"June 4-July 5, 2023",
-            description:"A 7 days long online individual AI competition. The contest will be in multiplayer mode."
+            title:"July 2-July 6, 2023",
+            description:"A 5 days long online individual AI competition. The contest will be in multiplayer mode."
         },
         {
             icon: <FaLanguage size={32} color={variables.colorSecondary} />,

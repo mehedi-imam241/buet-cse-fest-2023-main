@@ -11,7 +11,7 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"June 4-5, 2023",
+            title:"20-21 July, 2023",
             description:"Attend a 24 hr long on premise hackathon at Department of CSE, BUET"
         },
         {
@@ -20,7 +20,7 @@ function AboutSection(props) {
             description:"Categories to compete in DevOps, API, Web3"
         }, {
             icon: <FaGift size={32} color={variables.colorTertiary} />,
-            title:"250K+ Prize Money",
+            title:"Prize Money TBA",
             description:"Separate prizes for each category, along with special prizes"
         }
     ]

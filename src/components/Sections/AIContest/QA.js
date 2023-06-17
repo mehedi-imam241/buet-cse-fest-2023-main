@@ -11,7 +11,7 @@ const QALIST = [
 
     {
         question: "Will there be any penalty for multiple submissions or late submissions?",
-        answer: <>NO!! You will get a time period of 1 week(+) to submit, edit, re-submit your code as much as you want. The scoring will be done based on codingame's automated system, which accounts for submission time only for contestants tied to the same score. You can read about codingame rules here.</>
+        answer: <>NO!! You will get a time period of 5 days(+) to submit, edit, re-submit your code as much as you want. The scoring will be done based on codingame's automated system, which accounts for submission time only for contestants tied to the same score. You can read about codingame rules here.</>
     },
     {
         question: "I am an absolute beginner with no experience in any contests whatsoever. Can I do any good participating here?",

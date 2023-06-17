@@ -26,24 +26,14 @@ const TABLE_HEAD = ["Event", "Location","Date & Time"];
 
 const TABLE_ROWS = [
     {
-        name: "Arrival",
-        location: "BUET",
-        date: "23/04/18",
+        name: "First Phase",
+        location: "Online",
+        date: "June 18 - July 28, 2023",
     },
     {
-        name: "Sprint",
+        name: "Second Phase",
         location: "BUET",
-        date: "23/04/18",
-    },
-    {
-        name: "Job Seminar",
-        location: "BUET",
-        date: "19/09/17",
-    },
-    {
-        name: "Final Judging",
-        location: "BUET",
-        date: "23/04/18",
+        date: "TBA",
     }
 
 ];

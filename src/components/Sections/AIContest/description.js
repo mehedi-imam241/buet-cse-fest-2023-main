@@ -12,7 +12,7 @@ import EventDescription from "@/components/eventDescription";
 const description = <>BUET CSE Fest is back with another big event, the <strong>Inter University Al CONTEST</strong>. This will be an online and individual event. The contest will be based off a multiplayer game. You wil be given the game for which you have to implement some logic for your players. Your players will play the game against other players, implemented by other contestants. The matches will be displayed live!!
     <br/>
     <br/>
-    You will get a time period of <strong>1 week(+) to submit, edit, re-submit your code </strong>, fighting against all the contestants torise above the leaderboard. Experience the thrill of witnessing your code fight against other contestant's code live!!
+    You will get a time period of <strong>5 days(+) to submit, edit, re-submit your code </strong>, fighting against all the contestants torise above the leaderboard. Experience the thrill of witnessing your code fight against other contestant's code live!!
     <br/>
     <br/>
     The contest will be hosted on <strong>codingame</strong>. So participants are required to have an account in
@@ -25,13 +25,13 @@ const TABLE_HEAD = ["Event", "Location","Date & Time"];
 const TABLE_ROWS = [
     {
         name: "Contest",
-        location: "BUET",
-        date: "23/04/18",
+        location: "Online",
+        date: "July 2-July 6, 2023",
     },
     {
         name: "Prize Giving",
         location: "BUET",
-        date: "23/04/18",
+        date: "TBA",
     }
 
 ];

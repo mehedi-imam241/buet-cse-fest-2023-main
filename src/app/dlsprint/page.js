@@ -12,7 +12,7 @@ function Page(props) {
             <HeroSection />
             <AboutSection />
             <Description />
-            <SponsorSection />
+            {/*<SponsorSection />*/}
             <QA />
             <JoinUs />
         </div>

@@ -57,11 +57,11 @@ export default function CustomNavbar() {
                 </Link>
                 <div className="hidden lg:block">{navList}</div>
 
-                <div className="hidden lg:inline-block">
+                <a href={"https://fb.me/buetcsefest2023"} target={"_blank"} rel={"noreferrer"} className="hidden lg:inline-block">
                     <ButtonCustom
                         bgcolor={`linear-gradient(to right top, ${variables.colorPrimary}, ${variables.colorSecondary}, ${variables.colorTertiary})`}
-                        textcolor={variables.colorWhite}>Facebook Event</ButtonCustom>
-                </div>
+                        textcolor={variables.colorWhite}>Facebook Page</ButtonCustom>
+                </a>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -103,9 +103,11 @@ export default function CustomNavbar() {
             <Collapse open={openNav}>
                 <div className="container mx-auto">
                     {navList}
-                    <Button variant="gradient" color={"purple"} size="sm" fullWidth className="mb-2">
-                        <span>Facebook Event</span>
+                    <a href={"https://fb.me/buetcsefest2023"} target={"_blank"} rel={"noreferrer"}>
+                    <Button variant="gradient" color={"purple"} size="sm" fullWidth className="mb-2" >
+                        <span>Facebook Page</span>
                     </Button>
+                    </a>
                 </div>
             </Collapse>
         </Navbar>

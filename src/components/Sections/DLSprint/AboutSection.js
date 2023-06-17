@@ -11,21 +11,21 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"June 4-July 5, 2023",
+            title:"June 18-July 28, 2023",
             description:"A month long competition with both online and on premise rounds"
         },
         {
             icon: <IoMapSharp size={32} color={variables.colorSecondary} />,
             title:"2 phases",
             description:<>
-                 <strong> Phase 1 </strong>: July 01- Aug 25 <br/>
-                 <strong> Phase 2 </strong>: Sept 02
+                 <strong> Phase 1 </strong>: June 18 - July 28 <br/>
+                 <strong> Phase 2 </strong>: TBA
 
             </>
         }, {
             icon: <FaGift size={32} color={variables.colorTertiary} />,
-            title:"250K+ Prize Money",
-            description:"Participate and win from a total prize pool of 250K+ BDT"
+            title:"Prize Money TBA",
+            description:"Participate and win from a total prize pool of TBA"
         }
     ]
     return (
