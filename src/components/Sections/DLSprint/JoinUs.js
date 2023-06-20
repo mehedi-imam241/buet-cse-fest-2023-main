@@ -6,7 +6,7 @@ import React from "react";
 
 export default function JoinUs(props) {
     return (
-        <div className={"text-center pb-16 sm:pb-[15%] relative bg-color-white"}>
+        <div className={"text-center pb-16 sm:pb-[15%] relative bg-color-gray"}>
             <SectionTitle>What are you waiting for?</SectionTitle>
             <p className={"mb-5"}/>
             <ButtonCustom textcolor={variables.colorWhite} bgcolor={`linear-gradient(to right top, ${variables.colorPrimary}, ${variables.colorSecondary}, ${variables.colorTertiary})`}>Register </ButtonCustom>

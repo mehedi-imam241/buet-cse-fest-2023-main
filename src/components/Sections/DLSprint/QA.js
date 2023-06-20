@@ -39,9 +39,9 @@ const QALIST = [
 
 function Qa(props) {
     return (
-        <div className={"text-center pb-16 sm:pb-[15%] relative bg-color-gray"}>
+        <div className={"text-center pb-16 sm:pb-[15%] relative bg-color-white"}>
             <EventQa list={QALIST} />
-            <WaveDesign position={"bottom-[-2px]"} color={variables.colorWhite} />
+            <WaveDesign position={"bottom-[-2px]"} color={variables.colorGray} />
         </div>
     );
 }

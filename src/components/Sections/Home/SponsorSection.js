@@ -20,17 +20,20 @@ const sponsorList = [
         title: "Co Sponsor",
     },
     {
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-vector%2Fabstract-technology-particle-background_5268360.htm&psig=AOvVaw0QZ3Z2Q4Z3Q8Z2Z2Z2Z2Z2&ust=1629789852022000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjQ4ZqHgvICFQAAAAAdAAAAABAD",
+        image: "/sponsors/therap.png",
         companyName: "Therap",
         title: "Silver Sponsor",
-    },{
+    },
+    {
+        image: "/sponsors/somoy.png",
+        companyName: "Somoy news",
+        title: "TV Partner",
+    },
+
+    {
         image: "/sponsors/daily-star.png",
         companyName: "The Daily Star",
         title: "Media Partner",
-    },{
-        image: "/sponsors/ekattor.png",
-        companyName: "Somoy news",
-        title: "TV Partner",
     },
     {
         image: "/sponsors/IEEE.png",
