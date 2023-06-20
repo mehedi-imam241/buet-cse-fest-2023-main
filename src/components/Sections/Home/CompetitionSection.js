@@ -18,7 +18,7 @@ const CompetitionList = [
     {
         title: "Capture the Flag",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
-        image: "/assets/ctf-banner.jpg"
+        image: "/assets/ctf-banner.png"
     },
     {
         title: "GameJam",
