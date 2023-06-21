@@ -19,9 +19,11 @@ export default function HeroSection() {
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">
+                    <a href={"https://docs.google.com/document/d/e/2PACX-1vR5e2SGqYwJkgAUOAarV29nQUaH-7MIKRzD_LeRVjzWBHieOsf3QsRYYscD3RYTkYcXPuez88wOkNy-/pub"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
+                    </a>
                     <a href={"https://tinyurl.com/bcfhackathonreg"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={`linear-gradient(to bottom left,${variables.colorTertiary},${variables.colorSecondary},  ${variables.colorPrimary})`} textcolor={variables.colorWhite}>
                         Register
