@@ -12,7 +12,7 @@ export default function HeroSection() {
                     BJIT Presents
                 </h2>
                 <h1 className="text-white text-base md:text-3xl  font-medium mb-3">
-                    BUET CSE Fest 2023 Hackathon
+                    BUET CSE Fest 2023 - Hackathon
                 </h1>
                 <h2 className="font-semibold text-white text-sm md:text-base mb-3 sm:mb-5">
                     13 - 14 July, 2023
@@ -22,9 +22,11 @@ export default function HeroSection() {
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
+                    <a href={"https://tinyurl.com/bcfhackathonreg"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={`linear-gradient(to bottom left,${variables.colorTertiary},${variables.colorSecondary},  ${variables.colorPrimary})`} textcolor={variables.colorWhite}>
                         Register
                     </ButtonCustom>
+                    </a>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@ const navLinks = [
     {title: "Home", link: "/"},
     {title: "AI Contest", link: "/#"},
     {title: "Hackathon", link: "/hackathon"},
-    {title: "DL Sprint", link: "/dlsprint"},
+    {title: "DL Sprint", link: "/dlsprint2.0"},
     {title: "CTF", link: "/ctf"},
     {title: "GameJam", link: "/gamejam"},
 ];

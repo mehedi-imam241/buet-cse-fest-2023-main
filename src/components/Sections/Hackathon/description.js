@@ -23,12 +23,12 @@ const TABLE_ROWS = [
     {
         name: "Arrival",
         location: "BUET",
-        date: "13 July, 2023",
+        date: "13 July, 2023. 8:00 AM",
     },
     {
         name: "Sprint",
         location: "BUET",
-        date: "13-14 July, 2023",
+        date: "13 - 14 July, 2023",
     },
     {
         name: "Job Seminar",
@@ -36,7 +36,7 @@ const TABLE_ROWS = [
         date: "14 July, 2023",
     },
     {
-        name: "Final Judging",
+        name: "Prize Giving Ceremony",
         location: "BUET",
         date: "TBA",
     }

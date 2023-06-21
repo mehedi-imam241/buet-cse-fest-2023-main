@@ -9,7 +9,7 @@ import { Card, Typography } from "@material-tailwind/react";
 import EventDescription from "@/components/eventDescription";
 
 
-const description = <>BUET CSE Fest is back with an exhilarating and intellectually stimulating Inter University Capture The Flag (CTF) Competition! This event is designed to challenge
+const description = <>𝐁𝐔𝐄𝐓 𝐂𝐒𝐄 𝐅𝐞𝐬𝐭 is bringing you for the first time an exhilarating and intellectually stimulating Inter University Capture The Flag (CTF) Competition! This event is designed to challenge
     the brightest minds from universities across the region and provide them with an opportunity to showcase their cybersecurity skills. Whether you are a seasoned
     cybersecurity enthusiast or just starting to explore the world of ethical hacking, this competition will push your limits and ignite your passion for cybersecurity.
     <br/><br/>

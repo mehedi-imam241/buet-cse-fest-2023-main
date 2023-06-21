@@ -11,8 +11,8 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"July 12, 2023",
-            description:"Attend a 24 hr long on premise hackathon at Department of CSE, BUET"
+            title:"July 21, 2023",
+            description:"Attend a 5-hour long on competition at Department of CSE, BUET"
         },
         {
             icon: <IoMapSharp size={32} color={variables.colorSecondary} />,

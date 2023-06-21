@@ -11,7 +11,7 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"June 18-July 28, 2023",
+            title:"June 18 - July 28, 2023",
             description:"A month long competition with both online and on premise rounds"
         },
         {

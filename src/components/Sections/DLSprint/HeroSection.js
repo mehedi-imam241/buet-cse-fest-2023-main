@@ -14,7 +14,7 @@ export default function HeroSection() {
                     BJIT Presents
                 </h2>
                 <h1 className="text-white text-base md:text-3xl  font-medium mb-3">
-                    BUET CSE FEST 2023 Deep Learning Sprint 2.0
+                    BUET CSE FEST 2023 - Deep Learning Sprint 2.0
                 </h1>
 
                 <h2 className="text-white text-sm md:text-base mb-1 sm:mb-5">
@@ -28,12 +28,16 @@ export default function HeroSection() {
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
+                    <a href={"https://shorturl.at/ghty4"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={`linear-gradient(to bottom left,${variables.colorTertiary},${variables.colorSecondary},  ${variables.colorPrimary})`} textcolor={variables.colorWhite}>
                         Register
                     </ButtonCustom>
+                    </a>
+                    <a href={"https://kaggle.com/c/dlsprint2"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorSecondary}>
                         Kaggle
                     </ButtonCustom>
+                    </a>
                 </div>
             </div>
         </div>

@@ -28,8 +28,8 @@ function VideoSection(props) {
                     </div>
 
                 </div>
-                <div className={"flex flex-col md:flex-row-reverse items-center gap-10 text-center md:text-right"}>
-                    <iframe  height="250" src="https://www.youtube.com/embed/kBV8gPVZNEE"
+                <div className={"flex flex-col md:flex-row-reverse items-center gap-10 text-center md:text-left"}>
+                    <iframe  height="250" src="https://www.youtube.com/embed/Xrgk023l4lI"
                             title="What is DevOps?" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen></iframe>
@@ -40,6 +40,21 @@ function VideoSection(props) {
                         </h3>
                         <p className={"text-sm md:text-base  font-medium text-gray-700"}>
                             DevOps is a set of practices, tools, and a cultural philosophy that automate and integrate the processes between software development and IT teams.
+                        </p>
+                    </div>
+                </div>
+                <div className={"flex flex-col md:flex-row items-center gap-10 text-center md:text-left"}>
+                    <iframe  height="250" src="https://www.youtube.com/embed/Xrgk023l4lI"
+                            title="What is API?" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen></iframe>
+
+                    <div className={"flex flex-col gap-4"}>
+                        <h3 className={"text-base md:text-lg font-medium text-color-black"}>
+                            What's API and Cloud Computing?
+                        </h3>
+                        <p className={"text-sm md:text-base  font-medium text-gray-700"}>
+                            A Cloud API is a software interface that allows developers to link cloud computing services together. Application programming interfaces (APIs) allow one computer program to make its data and functionality available for other programs to use.    
                         </p>
                     </div>
                 </div>

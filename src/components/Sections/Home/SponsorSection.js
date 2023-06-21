@@ -17,7 +17,7 @@ const sponsorList = [
     {
         image: "/sponsors/globalgeekslogo.png",
         companyName: "Global Geeks",
-        title: "Co Sponsor",
+        title: "Co-Title Sponsor",
     },
     {
         image: "/sponsors/therap.png",
@@ -27,13 +27,13 @@ const sponsorList = [
     {
         image: "/sponsors/somoy.png",
         companyName: "Somoy news",
-        title: "TV Partner",
+        title: "Media Partner",
     },
 
     {
         image: "/sponsors/daily-star.png",
         companyName: "The Daily Star",
-        title: "Media Partner",
+        title: "In Association With",
     },
     {
         image: "/sponsors/IEEE.png",

@@ -6,28 +6,28 @@ import ButtonCustom from "@/components/ButtonCustom";
 
 const CompetitionList = [
     {
-        title: "hackathon",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        title: "Hackathon",
+        description: "An inter university 24-hour competition where participants will be given a problem to solve using the development skills they have.",
         image: "/assets/hackthon-banner.jpg"
     },
     {
-        title: "Deep Learning Sprint",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies nisl nunc aliquam nisl nunc aliquam",
+        title: "Deep Learning Sprint 2.0",
+        description: "A month long deep learning competition where participants will be given a problem and a dataset and the competition will be held in Kaggle.",
         image: "/assets/dlsprint-banner.jpg"
     },
     {
         title: "Capture the Flag",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        description: "Capture The Flag (CTF) is a thrilling cybersecurity contest where participants use their computer skills to find and exploit weaknesses in systems, competing to capture virtual flags and earn points.",
         image: "/assets/ctf-banner.png"
     },
     {
         title: "GameJam",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        description: "A Gamejam competition is an event where participants, typically game developers or enthusiasts, come together to create playable games within a set timeframe of 72 hours.",
         image: "/assets/gamejam-banner.jpg"
     },
     {
         title: "AI Contest",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo ac ultrices ultricies",
+        description: "A simple strategy game where you have to build a bot to play against other bots. The bot with the highest score wins the game.",
         image: "/assets/ai-contest-hero.webp"
     }
 
