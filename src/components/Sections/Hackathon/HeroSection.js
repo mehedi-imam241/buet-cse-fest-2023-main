@@ -15,7 +15,7 @@ export default function HeroSection() {
                     BUET CSE Fest 2023 Hackathon
                 </h1>
                 <h2 className="font-semibold text-white text-sm md:text-base mb-3 sm:mb-5">
-                    20 - 21 July, 2023
+                    13 - 14 July, 2023
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">

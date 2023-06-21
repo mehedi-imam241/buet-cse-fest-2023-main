@@ -11,20 +11,20 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"June 4-5, 2023",
+            title:"July 12, 2023",
             description:"Attend a 24 hr long on premise hackathon at Department of CSE, BUET"
         },
         {
             icon: <IoMapSharp size={32} color={variables.colorSecondary} />,
             title:"2 phases",
             description:<>
-                <strong> Phase 1 </strong>: July 01- Aug 25 <br/>
-                <strong> Phase 2 </strong>: Sept 02
+                <strong> Phase 1 Online </strong>: July 12 <br/>
+                <strong> Phase 2 Onsite </strong>: July 21
 
             </>
         }, {
             icon: <FaGift size={32} color={variables.colorTertiary} />,
-            title:"250K+ Prize Money",
+            title:"TBA",
             description:"Separate prizes for each category, along with special prizes"
         }
     ]
