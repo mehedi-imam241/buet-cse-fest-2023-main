@@ -16,7 +16,7 @@ export default function HeroSection() {
                 </h1>
 
                 <h2 className="font-semibold text-white text-sm md:text-base mb-3 sm:mb-5">
-                    22 July, 2023
+                    21 July, 2023
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">
