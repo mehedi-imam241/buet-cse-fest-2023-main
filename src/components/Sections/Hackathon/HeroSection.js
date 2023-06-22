@@ -19,7 +19,7 @@ export default function HeroSection() {
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">
-                    <a href={"https://docs.google.com/document/d/e/2PACX-1vR5e2SGqYwJkgAUOAarV29nQUaH-7MIKRzD_LeRVjzWBHieOsf3QsRYYscD3RYTkYcXPuez88wOkNy-/pub"} target={"_blank"} rel={"noreferrer"}>
+                    <a href={"https://docs.google.com/document/d/e/2PACX-1vTFE70hgYbZW_dlTuN9B2JhHUBx25Z2JAf-KSKbmiwDQIach22EedWVPoJYYs-Udw/pub"} target={"_blank"} rel={"noreferrer"}>
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
