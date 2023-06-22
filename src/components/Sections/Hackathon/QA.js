@@ -26,7 +26,7 @@ const QALIST = [
 
     }, {
         question: "What are the rules for team formation?",
-        answer: "Teams consist of 2-3 participants. Each participant must be enrolled in a university at the time of registration. Participants forming a team must be of same different universities."
+        answer: "Teams consist of 2-3 participants. Each participant must be enrolled in a university at the time of registration. Participants forming a team can be of different universities."
     }, {
         question: "Which segment is suitable for me?",
         answer: "To find the most suitable segment we recommend going through our Rulebook which contains an overview and resources for each segment."
