@@ -10,7 +10,7 @@ const requirements = [
         description: "Anyone from any university currently pursuing their undergrad are eligible to participate."
     }, {
         title: "Your Team",
-        description: <>A team must consist of <b>3-4 members</b> . Furthermore, it is mandatory for all team members to be affiliated with the <b>same university</b> .</>
+        description: <>A team must consist of <b>maximum 3 members</b> . It is  <strong>open for all</strong> .</>
     }]
 
 function RequirementSection(props) {
