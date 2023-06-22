@@ -33,7 +33,7 @@ const TABLE_ROWS = [
     {
         name: "Onsite Phase",
         location: "BUET",
-        date: "July 22",
+        date: "July 21",
     }
 
 ];

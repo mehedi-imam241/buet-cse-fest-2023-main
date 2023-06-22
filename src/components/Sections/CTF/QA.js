@@ -36,7 +36,7 @@ const QALIST = [
     },
     {
         question: "Is there a registration fee for participation?",
-        answer: "There is no registration fee for the competition. It is completely free to participate."
+        answer: "There is no registration fee for the Online Qualifying round. It is completely free to participate and showcase your skills remotely. However, for the onsite round of the competition, a small registration fee will be required. The exact amount of the registration fee will be announced closer to the event, and it will be kept affordable to encourage participation."
     },
     {
         question: "Can I bring my own tools and equipment to the competition?",
