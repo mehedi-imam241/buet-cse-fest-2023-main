@@ -24,7 +24,7 @@ function AboutSection(props) {
             </>
         }, {
             icon: <FaGift size={32} color={variables.colorTertiary} />,
-            title:"250K+ Prize Money",
+            title:"75K+ Prize Money",
             description:"Separate prizes for each category, along with special prizes"
         }
     ]
