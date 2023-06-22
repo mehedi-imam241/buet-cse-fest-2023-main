@@ -7,7 +7,7 @@ import variables from "@/app/variables.module.scss";
 const requirements = [
     {
         title: "Eligibility",
-        description: "Anyone from any university currently pursuing their undergrad are eligible to participate."
+        description: "The competition is open for all. That is undergraduate or graduate, anyone can participate."
     }, {
         title: "Your Team",
         description: <>A team must consist of <b>maximum 3 members</b> . It is  <strong>open for all</strong> .</>
