@@ -22,9 +22,12 @@ export default function HeroSection() {
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
+                    <a href="https://forms.gle/x7bbBkKKVyGvUSLn7" target="_blank" rel="noopener noreferrer">
+                  
                     <ButtonCustom bgcolor={`linear-gradient(to bottom left,${variables.colorTertiary},${variables.colorSecondary},  ${variables.colorPrimary})`} textcolor={variables.colorWhite}>
                         Register
                     </ButtonCustom>
+                    </a>
                 </div>
             </div>
         </div>
