@@ -20,16 +20,16 @@ export default function HeroSection() {
                 </h2>
 
                 <h2 className="font-semibold text-white text-sm md:text-base mb-3 sm:mb-5">
-                    21 July, 2023
+                    27-28 July, 2023
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">
                     <ButtonCustom bgcolor={variables.colorWhite} textcolor={variables.colorPrimary}>
                         Rules
                     </ButtonCustom>
-                    <a href="https://forms.gle/kppGLQ6BXacnTQ8Z9" target="_blank" rel="noopener noreferrer">
+                    <a href="https://forms.gle/27zz6xYPKMLER6SL8" target="_blank" rel="noopener noreferrer">
                     <ButtonCustom bgcolor={`linear-gradient(to bottom left,${variables.colorTertiary},${variables.colorSecondary},  ${variables.colorPrimary})`} textcolor={variables.colorWhite}>
-                        Register
+                        Pre Register
                     </ButtonCustom>
                     </a>
                 </div>

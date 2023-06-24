@@ -5,45 +5,47 @@ import EventQa from "@/components/EventQA";
 
 const QALIST = [
     {
-        question: "Who can participate in the Inter University CTF Competition?",
-        answer: "Anyone from any university currently pursuing their undergrad are eligible to participate. But the members under a team must be from same university."
+        question: "Who can participate?",
+        answer: "Any university student can form a team of 3 students from the same university and pre-register for the event."
     },
-    {
-        question: "Can I participate as an individual, or do I need to form a team?",
-        answer: "The competition is team-based, and each team can have a minimum of three members and a maximum of four members. You can form your own team or join an existing one."
-    },
-    {
-        question: "Do I need prior experience in cybersecurity to participate?",
-        answer: "While prior experience in cybersecurity is beneficial, it is not a requirement. The competition is designed to accommodate participants with varying levels of expertise, from beginners to experienced hackers. It's an excellent opportunity to learn and enhance your skills regardless of your current knowledge level."
-    },
-    {
-        question: "What skills or knowledge areas will the challenges cover?",
-        answer: "The challenges will cover various areas of cybersecurity, including cryptography, web security, reverse engineering, forensics, and more. The competition aims to provide a holistic experience that encompasses different aspects of cybersecurity."
 
+    {
+        question: "Will this be an onsite or online event?",
+        answer: "This will be an onsite event. The venue is the ECE campus of BUET."
     },
     {
-        question: "How long will the competition last?",
-        answer: "The competition duration may vary, but typically it spans 6-7 hours. The exact duration will be communicated to participants before the event."
+        question: "What will happen after I register?",
+        answer: "After pre-registration we will publish a team slot per universities. If your team is selected from your university then you can proceed to final registration."
     },
     {
-        question: "Are there any prizes for the winners?",
-        answer: "Yes, there will be prizes for the top-performing teams. Details about the prizes will be shared closer to the event date."
+        question: "What are the rules for team formation?",
+        answer: "Teams consist of 3 participants. Each participant must be enrolled in the same university at the time of registration. Participants forming a team must be of the same universities. Each team must have a coach who is an active faculty of the same institution."
+    },
+    {
+        question: "When will the final registration start?",
+        answer: "The final registration will start after publishing final team list. Keep an eye on the event page or website for future updates."
+    },
+    {
+        question: "How will the slot be given for university?",
+        answer: "We will give slot based on last ICPC and last BUET IUPC performance."
+    },
+    {
+        question: "Is there any restriction or rules to be followed on how the slots be filled up by respective university?",
+        answer: "No, if a university get x amount of slots, they can choose any teams comprising of current students of that university."
+    },
+    {
+        question: "Do I need to pay a registration fee?",
+        answer: "Yes, if your team is selected for final event then you will need to pay BDT 4500 for registration."
+    },
+    {
+        question: "What will the schedule be like?",
+        answer: "There will be a Mock contest on the day before (27th July) at 3pm. Main IUPC will be held on 28th July at 9am. Event date and time may change due unavoidable issues."
+    },
+    {
+        question: "What do I need to bring the day of the event?",
+        answer: <>You will need to bring your printed template of max 25 page (if you have any). Specific rules about template will be published some day before the main IUPC</>
     }
-    ,
-    {
-        question: "How can I register for the Inter University CTF Competition?",
-        answer: "Registration details, including the registration process and deadlines, will be announced and provided through official channels. Keep an eye on the event's website."
-    },
-    {
-        question: "Is there a registration fee for participation?",
-        answer: "There is no registration fee for the Online Qualifying round. It is completely free to participate and showcase your skills remotely. However, for the onsite round of the competition, a small registration fee will be required. The exact amount of the registration fee will be announced closer to the event, and it will be kept affordable to encourage participation."
-    },
-    {
-        question: "Can I bring my own tools and equipment to the competition?",
-        answer: "Participants are generally allowed to bring their own tools and equipment, such as laptops or other devices, as long as they comply with the competition's rules and guidelines. Specific instructions regarding allowed tools and equipment will be communicated to participants before the event."
-    }
-
-    ];
+    ]
 
 function Qa(props) {
     return (

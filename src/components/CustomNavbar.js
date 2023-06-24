@@ -15,6 +15,7 @@ const navLinks = [
     {title: "DL Sprint", link: "/dlsprint2.0"},
     {title: "CTF", link: "/ctf"},
     {title: "GameJam", link: "/gamejam"},
+    {title: "IUPC", link: "/iupc"},
 ];
 
 
@@ -47,7 +48,7 @@ export default function CustomNavbar() {
 
     return (
         <Navbar
-            className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
+            className="mx-auto max-w-screen-2xl py-2 px-4 lg:px-8 lg:py-4 absolute left-0 right-0 z-20 "
             blurred={false}
         >
             <div className="container mx-auto flex items-center justify-between text-blue-gray-900">

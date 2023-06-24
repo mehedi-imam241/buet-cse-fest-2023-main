@@ -11,21 +11,22 @@ function AboutSection(props) {
     const aboutList = [
         {
             icon: <MdComputer size={32} color={variables.colorPrimary} />,
-            title:"July 21, 2023",
-            description:"Attend a 5-hour long on competition at Department of CSE, BUET"
+            title:"27-28 July, 2023",
+            description:"Contest will be held on 27-28 July, 2023 at BUET Campus"
         },
         {
             icon: <IoMapSharp size={32} color={variables.colorSecondary} />,
             title:"2 phases",
             description:<>
-                <strong> Phase 1 Online </strong>: July 12 <br/>
-                <strong> Phase 2 Onsite </strong>: July 21
+                <strong> Mock contest </strong>: 27 July, 2023 <br/>
+                <strong> Main contest </strong>: 28 July, 2023
 
             </>
-        }, {
+        },
+        {
             icon: <FaGift size={32} color={variables.colorTertiary} />,
-            title:"TBA",
-            description:"Separate prizes for each category, along with special prizes"
+            title:"155k+ Prize Money",
+            description:"Top 10 team will get prize money of total 155K BDT"
         }
     ]
     return (

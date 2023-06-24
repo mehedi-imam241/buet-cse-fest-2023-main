@@ -9,34 +9,51 @@ import { Card, Typography } from "@material-tailwind/react";
 import EventDescription from "@/components/eventDescription";
 
 
-const description = <>𝐁𝐔𝐄𝐓 𝐂𝐒𝐄 𝐅𝐞𝐬𝐭 is bringing you for the first time an exhilarating and intellectually stimulating Inter University Capture The Flag (CTF) Competition! This event is designed to challenge
-    the brightest minds from universities across the region and provide them with an opportunity to showcase their cybersecurity skills. Whether you are a seasoned
-    cybersecurity enthusiast or just starting to explore the world of ethical hacking, this competition will push your limits and ignite your passion for cybersecurity.
+const description = <>BUET CSE Fest is back with the most prestigious IUPC of the country – BUET Inter University Programming Contest 2023
     <br/><br/>
-    During the Inter University CTF Competition, participants will engage in a series of hands-on challenges that simulate real-world scenarios, allowing them to
-    demonstrate their abilities in various areas of cybersecurity. These challenges will cover a wide range of topics, including cryptography, web security, reverse
-    engineering, forensics, and more. The competition will be conducted in a team-based format(3-4 members per team), fostering collaboration and encouraging participants
-    to combine their skills and knowledge to solve complex problems.
-    <br/><br/>
-    So, don't miss this chance to put your cybersecurity skills to the test and compete against the best minds in the region. Sharpen your hacking techniques and make
-    connections that could shape your future in cybersecurity. Get ready to dive into the world of ethical hacking and show off your abilities in the Inter University
-    CTF Competition!</>
+    There will be a main IUPC and a mock contest before that. The event will be
+    onsite on the premise of BUET CSE department. A team of 3 members each
+    from same university can form a team and participate in the event.
+    Important event dates will be updated as time goes. For further information
+    please check out the event and rulebook before registration!</>
 
 const TABLE_HEAD = ["Event", "Location","Date & Time"];
 
 const TABLE_ROWS = [
     {
-        name: "Online Phase",
+        name: "Preregistration Start",
         location: "Online",
-        date: "July 12",
+        date: "June 19, 2023",
     },
     {
-        name: "Onsite Phase",
+        name: "Preregistration End",
+        location: "Online",
+        date: "June 28, 2023",
+    },
+
+    {
+       name: "Slot Publish",
+       location: "Online",
+       date: "TBA"
+    },
+    {
+        name: "Team List Publish",
+        location: "Online" ,
+        date: "TBA"
+    },
+    {
+        name: "Mock Contest",
         location: "BUET",
-        date: "July 21",
+        date:"July 27, 2023"
+
+    },
+    {
+        name: "IUPC",
+        location: "BUET",
+        date: "July 28, 2023"
     }
 
-];
+]
 
 function Description(props) {
     return (
